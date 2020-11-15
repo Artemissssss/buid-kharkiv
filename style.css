@@ -123,5 +123,15 @@ font-family: 'roboto Slab', serif;
 text-align: center;
 font-size: 20px;
 cursor: pointer;
-margin-top: 10%;
+margin-top: 5%;
+}
+.name::after {
+    content: "";
+    width: 164px;
+    height: 7px;
+    border-radius:  20px;
+    transition: 0.5s;
+    background-color: #000000;
+    display: block;
+margin: 10px auto 15px;
 }
